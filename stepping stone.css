@@ -1,6 +1,11 @@
 body{
     background-color: #003e41 !important;
     
+    
+}
+nav{
+    font-family: 'Raleway' , sans-serif;
+    color:#e7be4d;
 }
 h1{ text-align: center;
     font-family: 'Raleway' , sans-serif;
@@ -9,6 +14,7 @@ h1{ text-align: center;
 h2{ text-align: center;
     font-family: 'Raleway' , sans-serif;
     color:#c299ab;
+    padding-top: 5%;
 }
 p{
     text-align: center;
