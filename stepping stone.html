@@ -27,27 +27,7 @@
           </div>
         </div>
       </nav>
-    <!--<nav class="navbar navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Stepping Stone Psychology</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar"> 
-                <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Approach</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>   
-        </div>
-    </nav> -->
+    
     <h1>Stepping Stone Psychology</h1>
 <h2>Home</h2>
 <p>Insert info about what the business does
@@ -55,17 +35,25 @@
 
 Fusce imperdiet egestas metus vitae imperdiet. Nulla libero nulla, maximus vel dignissim nec, facilisis venenatis urna. Sed euismod vitae magna sit amet tempus. Curabitur sed nulla sapien. Sed vestibulum placerat libero, sed tempor justo consequat id. Morbi ante urna, tristique sit amet eros non, mollis eleifend dolor. Donec scelerisque hendrerit luctus. Nam auctor ornare magna sed euismod. Nunc vel sem vulputate, ultrices justo eget, lacinia arcu. In bibendum ipsum eu velit finibus auctor.
 </p>
-<h2 id="about">About</h2>
-<p>Insert a photo and paragraph about Sofia Gilli
+
+<div class=about >
+   <h2 id="about">About</h2>
+
+    <p>Insert a photo and paragraph about Sofia Gilli
     Sed est dui, hendrerit eu enim a, dapibus condimentum turpis. Suspendisse potenti. Morbi sed egestas velit. Donec bibendum nec purus viverra porta. Nullam eu egestas felis, sed accumsan dolor. Aenean blandit, felis at ultrices scelerisque, mauris neque egestas libero, maximus mollis mi lorem sit amet diam. Nulla semper, mi vitae condimentum maximus, erat nisi egestas ante, ut hendrerit purus enim in purus. Aenean ullamcorper in odio sed condimentum. Mauris molestie sapien turpis.
 
 Morbi sit amet rhoncus quam, at feugiat nisi. Nullam vel tellus in odio sodales viverra non ut elit. Sed malesuada dui id velit porttitor tristique. Donec id tristique risus, quis faucibus est. Vestibulum a est accumsan, consequat felis ut, ornare lacus. Donec dictum, nisi vitae consequat vestibulum, magna lacus placerat dolor, at rhoncus eros diam ut arcu. Fusce sed erat sed erat egestas posuere. Sed euismod augue ut ultrices commodo. Nam aliquam augue eget maximus accumsan. Etiam sit amet justo quis lacus placerat finibus.
+
 </p>
-    
-        <img src="SofiasPics/Portrait.JPG" alt="Portrait of Sofia" style= width:30%;" class=portrait>
+
+        
+            <img src="SofiasPics/Portrait.JPG" alt="Portrait of Sofia" style= width:30%; class=portrait> 
+       
+</div>
    
 
-<h2 id="approach">Approach</h2>
+<div class=approach>
+    <h2 id="approach">Approach</h2>
 <p>Paragraph about CBT as well as a bullet list of common issues addressed
     <ul>
         <li> depression </li>
@@ -77,10 +65,44 @@ Morbi sit amet rhoncus quam, at feugiat nisi. Nullam vel tellus in odio sodales 
     </ul>
     Quisque faucibus sollicitudin diam ac maximus. Nulla elementum dolor velit, at rhoncus metus aliquam facilisis. Donec et ornare justo. Aliquam in metus eget erat lacinia finibus non et ex. Morbi egestas dictum nisl at hendrerit. Donec sollicitudin, turpis ut consequat commodo, est sem imperdiet nibh, in ultricies dolor felis at nisl. Sed eu tempus ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque magna nibh, fermentum vitae arcu sit amet, feugiat vestibulum ex. Maecenas sit amet condimentum dolor. Curabitur varius augue eget diam vulputate euismod.
 </p>
-<h2 id="testimonials">Testimonials</h2>
+</div>
+
+<div class=testimonials>
+    <h2 id="testimonials">Testimonials</h2>
 <p>Include blurbs and quotes from patients/references</p>
-<h2 id="contact">Contact</h2>
-<p>A form goes here for name etc to contact Sofia via email</p>
+</div>
+
+<div class=contact>
+    <div class=water2 style="background-image: url('SofiasPics/water2.JPG');"  alt="photograph of water">
+    <h2 id="contact">Contact</h2>
+<p>A form goes here for name etc to contact Sofia via email
+
+</p>
+<form action="email address">
+    <div>
+        <label for="name"> Enter your name</label>
+    <input id="name" type="text" placeholder="name">
+    </div>
+    <div>
+        <label for="email"> Enter your email address</label>
+        <input id="email" type="text" placeholder="email address">
+    </div>
+    <div>
+        <label for="phone"> Enter your phone number</label>
+        <input id="phone" type="text" placeholder="contact number">
+    </div>
+    <div>
+        <label for="notes"> Please tell me how I can help you or share some info about what you're struggling with and any notes I should keep in mind when contacting you</label>
+        <input id="notes" type="text" placeholder="notes">
+    </div>
+    
+    <button>Submit</button>
+
+</form>
+<!--<img src="SofiasPics/water2.JPG" alt="photograph of water" style= width:95%; class=water2> -->
+</div>
+</div>
+
 
 <!--we wil need images somewhere: ( <img src="" alt="Image description for disability etc"> )-->
 </body>

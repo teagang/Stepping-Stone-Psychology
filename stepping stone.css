@@ -30,4 +30,31 @@ ul{
 img.portrait{
     border-radius: 10%;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+ 
+}
+div.water2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+    border-radius: 15%;
+    padding: 2%;
+    width: 95%;
+    
+}
+
+div.about{
+    padding:2%;
+    background-color: lightslategrey;
+}
+div.approach{
+    padding-left: 0%;
+    background-color: khaki;
+}
+div.testimonials{
+
+}
+div.contact{
+    background-color: linen;
+
 }
