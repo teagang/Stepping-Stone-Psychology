@@ -41,7 +41,7 @@ div.water2{
     margin-right: auto;
     border-radius: 50px;
     padding: 2%;
-    width: 95%;
+    width: 50%%;
     
 }
 
@@ -67,8 +67,25 @@ div.approach{
 }
 div.testimonials{
     background-color: #89afa1;
+    content: "";
+    clear: both;
+    display: table;
     padding:2%;
 
+}
+img.test1{
+    border-radius: 50%;   
+}
+p.testi{
+    font-size: 30px;
+    font-style: italic;
+}
+span.testname{
+    font-size: 20px;
+    font-style: normal;
+}
+img.test2{
+    border-radius: 50%;
 }
 div.contact{
     background-color: linen;
@@ -85,8 +102,20 @@ input {
   input:focus {
       border: 3px solid #164749;
   }
-  button {
-      background-color: f5d15a;
+  button.submit {
+      background-color: #f5d15a;
+      border: none;
+      color: #164749;
+      padding: 10px 10px;
+      text-align: center;
+      font-family: 'Raleway' , sans-serif;
+      font-size: 16px;
+      border-radius: 20%;
+      transition-duration: 0.3s;
+       
+  }
+  button.submit:hover {
+      background-color: #f8e7af;
   }
 
 /*  spare colors:
