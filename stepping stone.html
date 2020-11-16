@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ebba35;">
+    <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #f5d15a;">
         <a class="navbar-brand" href="#">Stepping Stone Psychology</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,26 +29,22 @@
       </nav>
     
     <h1>Stepping Stone Psychology</h1>
-<h2>Home</h2>
+<div class="home"> <h2>Home</h2>
 <p>Insert info about what the business does
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar felis sed tempor convallis. Phasellus euismod mi eu ante blandit, quis lobortis sem venenatis. Suspendisse imperdiet mattis massa et posuere. Vestibulum et elit bibendum, condimentum ante ut, ultricies elit. Mauris rhoncus sapien enim, quis molestie risus euismod at. Donec sit amet eros nec tortor interdum imperdiet ut a ex. Aenean nec nibh massa.
 
 Fusce imperdiet egestas metus vitae imperdiet. Nulla libero nulla, maximus vel dignissim nec, facilisis venenatis urna. Sed euismod vitae magna sit amet tempus. Curabitur sed nulla sapien. Sed vestibulum placerat libero, sed tempor justo consequat id. Morbi ante urna, tristique sit amet eros non, mollis eleifend dolor. Donec scelerisque hendrerit luctus. Nam auctor ornare magna sed euismod. Nunc vel sem vulputate, ultrices justo eget, lacinia arcu. In bibendum ipsum eu velit finibus auctor.
-</p>
+</p></div>
+   
 
-<div class=about >
+<div class="about" >
    <h2 id="about">About</h2>
-
-    <p>Insert a photo and paragraph about Sofia Gilli
+<img src="SofiasPics/Portrait.JPG" alt="Portrait of Sofia" style= width:30%; class="portrait">
+    Insert a photo and paragraph about Sofia Gilli
     Sed est dui, hendrerit eu enim a, dapibus condimentum turpis. Suspendisse potenti. Morbi sed egestas velit. Donec bibendum nec purus viverra porta. Nullam eu egestas felis, sed accumsan dolor. Aenean blandit, felis at ultrices scelerisque, mauris neque egestas libero, maximus mollis mi lorem sit amet diam. Nulla semper, mi vitae condimentum maximus, erat nisi egestas ante, ut hendrerit purus enim in purus. Aenean ullamcorper in odio sed condimentum. Mauris molestie sapien turpis.
 
 Morbi sit amet rhoncus quam, at feugiat nisi. Nullam vel tellus in odio sodales viverra non ut elit. Sed malesuada dui id velit porttitor tristique. Donec id tristique risus, quis faucibus est. Vestibulum a est accumsan, consequat felis ut, ornare lacus. Donec dictum, nisi vitae consequat vestibulum, magna lacus placerat dolor, at rhoncus eros diam ut arcu. Fusce sed erat sed erat egestas posuere. Sed euismod augue ut ultrices commodo. Nam aliquam augue eget maximus accumsan. Etiam sit amet justo quis lacus placerat finibus.
-
-</p>
-
-        
-            <img src="SofiasPics/Portrait.JPG" alt="Portrait of Sofia" style= width:30%; class=portrait> 
-       
+  
 </div>
    
 
@@ -76,27 +72,32 @@ Morbi sit amet rhoncus quam, at feugiat nisi. Nullam vel tellus in odio sodales 
     <div class=water2 style="background-image: url('SofiasPics/water2.JPG');"  alt="photograph of water">
     <h2 id="contact">Contact</h2>
 <p>A form goes here for name etc to contact Sofia via email
-
 </p>
-<form action="email address">
+<br>
+<form action="email address"> <!-- find out how to make the form send to Sofia's email address-->
     <div>
         <label for="name"> Enter your name</label>
-    <input id="name" type="text" placeholder="name">
+        <input id="name" type="text" placeholder="name" name="name">
     </div>
+    <br>
     <div>
         <label for="email"> Enter your email address</label>
-        <input id="email" type="text" placeholder="email address">
+        <input id="email" type="text" placeholder="email address" name="email">
     </div>
+    <br>
     <div>
         <label for="phone"> Enter your phone number</label>
-        <input id="phone" type="text" placeholder="contact number">
+        <input id="phone" type="text" placeholder="contact number" name="phone">
     </div>
+    <br>
     <div>
         <label for="notes"> Please tell me how I can help you or share some info about what you're struggling with and any notes I should keep in mind when contacting you</label>
-        <input id="notes" type="text" placeholder="notes">
+        <input id="notes" type="text" placeholder="notes" name="notes">
     </div>
-    
-    <button>Submit</button>
+    <br>
+    <button>submit</button>
+
+   <!--<input type="submit" onclick="clicked(event)" />  trying to make a popup on submit--> 
 
 </form>
 <!--<img src="SofiasPics/water2.JPG" alt="photograph of water" style= width:95%; class=water2> -->
@@ -110,4 +111,7 @@ Morbi sit amet rhoncus quam, at feugiat nisi. Nullam vel tellus in odio sodales 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<!--<script src="stepping stone.js"></script>-->
+
 </html>
