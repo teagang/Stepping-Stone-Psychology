@@ -9,19 +9,31 @@ nav{
 }
 h1{ text-align: center;
     font-family: 'Raleway' , sans-serif;
-    color: #003e41;
+    color: #F8ECEC;
     
+}
+p.navlink{
+    color:  #F8ECEC;
+    transition: 0.3s;
+    font-size: 150%;
+}
+p.navlink:hover{
+    color: #cfafaf;
+
 }
 h2{ text-align: center;
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
-    padding-top: 5%;
+    padding-top: 6%;
+    
+    
 }
 p{
     text-align: center;
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
     line-height: 200%;
+    font-size: 150%;
 }
 ul{
     list-style-type: none;
@@ -34,6 +46,7 @@ img.portrait{
     float:right;
     border-radius: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+   
  
 }
 div.water2{
@@ -52,8 +65,15 @@ div.about{
     clear: both;
     display: table;
     padding:2%;
-    background-color: lightslategrey;
+    background-color: #F8ECEC;
     line-height: 200%;
+}
+
+p.about{
+    text-align: left;
+    max-width: 65%;
+    padding-left: 2%;
+    
 }
 
 
@@ -65,15 +85,21 @@ div.approach{
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
     padding: 2%;
-    background-color: rgb(191, 194, 145);
+    background-color: #d8a75d;
     line-height: 200%;
 }
 div.issues{
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
     padding: 2%;
-    background-color: rgb(78, 109, 93);
+    background-color: #6C8685;
     line-height: 200%;
+
+}
+
+ul{
+    line-height: 200%;
+    font-size: 150%;
 
 }
 div.testimonials{
@@ -100,33 +126,50 @@ img.test2{
 }
 div.contact{
     background-color: linen;
+    
 
+}
+form{
+    padding:2%;
+    
+}
+
+div.formleft{
+    max-width: 45%;
+    
+}
+div.formright{
+    max-width: 45%;
+
+    
+    
+    
 }
 input {
     width: 100%;
     padding: 1%;
     border-radius: 10px;
-    border: 3px solid #afa9d1;
+    border: 3px solid #F8ECEC;
     outline: none;
     transition: 0.3s;
   }
   input:focus {
-      border: 3px solid #164749;
+      border: 3px solid #cfafaf;
   }
   textarea{
     width: 100%;
     padding: 1%;
     border-radius: 10px;
-    border: 3px solid #afa9d1;
+    border: 3px solid  #F8ECEC;
     outline: none;
     transition: 0.3s;
 
   }
   textarea:focus {
-    border: 3px solid #164749;
+    border: 3px solid#cfafaf;
   }
   button.submit {
-      background-color: #f5d15a;
+      background-color: #F8ECEC;
       border: none;
       color: #164749;
       padding: 10px 10px;
@@ -138,15 +181,31 @@ input {
        
   }
   button.submit:hover {
-      background-color: #f8e7af;
+      background-color: #cfafaf;
   }
 
-/*  spare colors:
- linen
-  #f3cdca
-   khaki
-    lightslategrey
-     #003e41;
-      #9fb2b3
-       #f5d15a;
-*/
+ spare colors{
+        color: linen;
+        color: #f3cdca;
+        color: khaki;
+        color: lightslategrey;
+        color:#003e41;
+        color:#9fb2b3;
+        color:#f5d15a;
+        color:#053847;
+        color:#f8e7af;
+        color:#164749;
+        color:#f5d15a;
+        color:#afa9d1;
+        color: #89afa1;
+        color:rgb(78, 109, 93);
+        color: rgb(191, 194, 145);
+        color: rgb(125, 151, 151);
+        color: rgb(168, 192, 216);
+        color: #f8e7af;
+        color: #b2d8da;
+        color: #053847;
+
+
+ }
+ 
