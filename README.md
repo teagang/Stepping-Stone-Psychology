@@ -10,3 +10,10 @@ Details about the site:
 -colors: dark teal, foresty
 - logo and slogan to appear at top of each page - nav bar
 - font should be clean and simple, not too thin, readable
+
+
+TODO
+- fix the hamburger on smaller screens
+- sticky headings for smaller screens when you jump via nav
+- form style
+- portrait to flex

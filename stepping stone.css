@@ -1,16 +1,13 @@
 body{
-    background-color: #fbfdfd !important;
-    
-    
+    background-color: #fbfdfd;    
 }
 nav{
-    font-family: 'Raleway' , sans-serif;
-    
+    font-family: 'Raleway' , sans-serif;   
 }
-h1{ text-align: center;
+h1{ 
+    text-align: center;
     font-family: 'Raleway' , sans-serif;
-    color: #F8ECEC;
-    
+    color: #F8ECEC;  
 }
 p.navlink{
     color:  #F8ECEC;
@@ -19,14 +16,12 @@ p.navlink{
 }
 p.navlink:hover{
     color: #cfafaf;
-
 }
-h2{ text-align: center;
+h2{ 
+    text-align: center;
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
-    padding-top: 6%;
-    
-    
+    padding-top: 6%;   
 }
 p{
     text-align: center;
@@ -45,9 +40,7 @@ ul{
 img.portrait{
     float:right;
     border-radius: 10%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
-   
- 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1); 
 }
 div.water2{
     display: block;
@@ -67,26 +60,50 @@ div.about{
     padding:2%;
     background-color: #F8ECEC;
     line-height: 200%;
+    
 }
 
 p.about{
     text-align: left;
     max-width: 65%;
-    padding-left: 2%;
+    margin-left: 8px;
+    padding: 4%;
+    border-style: solid ;
+    border-width:0px 0px 0px 20px ;
+    border-color: #6C8685 #6C8685 ;
     
+   
 }
 
 
 div.welcome{
     background-color: rgb(125, 151, 151);
     padding:2%;
+    
+}
+
+p.welcome{
+    border-style: solid;
+    border-width: 0px 0px 0px 20px;
+    border-color:  #d8a75d;
+    margin-left: 8px;
+    padding: 4%;
 }
 div.approach{
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
     padding: 2%;
-    background-color: #d8a75d;
+    background-color:  #d8a75d;
     line-height: 200%;
+    
+}
+
+p.approach{
+    border-style: solid;
+    border-width: 0px 20px 0px 0px;
+    border-color: #F8ECEC;
+    margin-right: 8px;
+    padding: 4%;
 }
 div.issues{
     font-family: 'Raleway' , sans-serif;
@@ -94,15 +111,20 @@ div.issues{
     padding: 2%;
     background-color: #6C8685;
     line-height: 200%;
+    
 
 }
 
 ul{
     line-height: 200%;
     font-size: 150%;
+    border-style: solid;
+    border-width: 0px 20px 0px 0px;
+    border-color: #F8ECEC;
+    
 
 }
-div.testimonials{
+/*div.testimonials{
     background-color: #89afa1;
     content: "";
     clear: both;
@@ -123,30 +145,17 @@ span.testname{
 }
 img.test2{
     border-radius: 50%;
-}
+} */
+
 div.contact{
     background-color: linen;
     
 
 }
-form{
-    padding:2%;
-    
-}
 
-div.formleft{
-    max-width: 45%;
-    
-}
-div.formright{
-    max-width: 45%;
 
-    
-    
-    
-}
 input {
-    width: 100%;
+   width: 100%;
     padding: 1%;
     border-radius: 10px;
     border: 3px solid #F8ECEC;
@@ -184,6 +193,26 @@ input {
       background-color: #cfafaf;
   }
 
+  div.column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+  }
+  div.row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  @media screen and (max-width: 600px){
+      div.column {
+          width: 100%;
+      }
+  }   
+  form {
+      width:100%;
+  } 
+
+  
  spare colors{
         color: linen;
         color: #f3cdca;

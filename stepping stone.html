@@ -2,13 +2,15 @@
 <html>
 
 <head>
-    <title>Stepping Stone</title>
+    <meta name="viewport"  content="width=device-width, initial-scale=1">
+    
     <link rel="stylesheet" type="text/css" href="stepping stone.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
+    <title>Stepping Stone</title>
 
 </head>
+
 
 <body>
     <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #194653;">
@@ -34,7 +36,7 @@
     <h1>Stepping Stone Psychology</h1>
 <div class="welcome"> <h2>Welcome</h2>
     <br>
-<p>
+<p class="welcome">
     In today’s society we face an increasing amount of stress in both our personal and professional lives that negatively affects our mental health. Under these circumstances, struggling is normal and you don’t have to experience it alone. At Stepping Stone Psychology will provide you with a safe and accepting space to share your concerns, without judgement. 
     <br>
     <br>
@@ -44,7 +46,7 @@ Stepping Stone Psychology provides psychological services for any struggles you 
 <div class=approach>
     <h2 id="approach">Approach</h2>
     <br>
-<p>Cognitive Behavioural Therapy, or CBT, is used successfully all over the world. It has been proven to be effective in treating a variety of psychological complaints and can be tailored to each client’s needs. Negative thoughts and unhealthy behaviour are examples of common and concerning symptoms that can be managed thanks to CBT. It is based on the simple concept that our thoughts, emotions and behaviour are all linked. One leads to the other, and so, changing one can lead to positive changes in the other. 
+<p class="approach">Cognitive Behavioural Therapy, or CBT, is used successfully all over the world. It has been proven to be effective in treating a variety of psychological complaints and can be tailored to each client’s needs. Negative thoughts and unhealthy behaviour are examples of common and concerning symptoms that can be managed thanks to CBT. It is based on the simple concept that our thoughts, emotions and behaviour are all linked. One leads to the other, and so, changing one can lead to positive changes in the other. 
     <br>
     <br>
     Therapy sessions can also be influenced by other styles of therapy, but above all they will be guided by the needs of the client.
@@ -97,35 +99,44 @@ My experience includes working as a counsellor for children and adolescents, sup
     Coming here today is the first step on your path to better mental health. Continue this journey and book a session through the contact form today.
 </p>
 <br>
-<form action="email address"> <!-- find out how to make the form send to Sofia's email address-->
-    <div class="formleft">
-        <label for="name"> Enter your name</label>
+
+
+<div class="row">
+    <form action="email address">  <!--find out how to make the form send to Sofia's email address -->
+   
+       <div class="column">
+            <label for="name"> Enter your name</label>
         <input id="name" type="text" placeholder="name" name="name">
-    </div>
+    
     <br>
-    <div class="formleft">
+   <br>
         <label for="email"> Enter your email address</label>
         <input id="email" type="email" placeholder="email address" name="email" required>
-    </div>
+  
     <br>
-    <div class="formleft">
+    <br>
         <label for="phone"> Enter your phone number</label>
         <input id="phone" type="text" placeholder="contact number" name="phone" required>
-    </div>
+    
     <br>
-    <div class="formright">
-        <label for="notes"> Please tell me how I can help you or share some info about what you're struggling with and any notes I should keep in mind when contacting you</label>
-        <textarea id="notes" rows="10" type="text" placeholder="notes" name="notes">
-
-        </textarea>
-        
-    </div>
+       </div>
+       <div class="column">
+           <label for="notes"> Notes </label>
+        <textarea id="notes" rows="8" type="text" placeholder="notes" name="notes">
+        </textarea>    
+    
     <br>
     <button class= submit >submit</button>
-
-   <!--<input type="submit" onclick="clicked(event)" />  trying to make a popup on submit--> 
-
+       </div>
+  
+        
+  <!--<input type="submit" onclick="clicked(event)" /> -->  <!--trying to make a popup on submit -->      
 </form>
+</div>
+  
+
+
+
 <!--<img src="SofiasPics/water2.JPG" alt="photograph of water" style= width:95%; class=water2> -->
 </div>
 </div>
