@@ -1,8 +1,14 @@
 body{
-    background-color: #fbfdfd;    
+    background-color: #fbfdfd; 
+    padding-top: 70px;
+    
+}
+html {
+    scroll-padding-top: 70px; 
 }
 nav{
-    font-family: 'Raleway' , sans-serif;   
+    font-family: 'Raleway' , sans-serif; 
+     
     
 }
 h1{ 
@@ -22,7 +28,12 @@ h2{
     text-align: center;
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
-    padding-top: 6%;   
+    padding-top: 6%; 
+    font-size: 40px !important;
+    font-weight: bold !important; 
+   
+    
+    
 }
 p{
     text-align: center;
@@ -30,6 +41,7 @@ p{
     color: #003e41;
     line-height: 200%;
     font-size: 150%;
+    
 }
 ul{
     list-style-type: none;
@@ -42,7 +54,7 @@ img.portrait{
     top: 20%;
     float:right;
     border-radius: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1); 
+    box-shadow: 0 4px 8px 0 rgb(8, 8, 8), 0 6px 20px 0 rgb(7, 7, 7); 
     margin: 5%;
 }
 div.water2{
@@ -61,7 +73,7 @@ div.about{
     clear: both;
     display: table;
     padding:2%;
-    background-color: #F8ECEC;
+    background-color: #6C8685;
     line-height: 200%;
     
 }
@@ -73,8 +85,8 @@ p.about{
     padding: 4%;
     border-style: solid ;
     border-width:0px 0px 0px 20px ;
-    border-color: #6C8685 #6C8685 ;
-    
+    border-color: #e2c792  ;
+    border-radius: 40px;
    
 }
 
@@ -82,51 +94,90 @@ p.about{
 div.welcome{
     background-color: rgb(125, 151, 151);
     padding:2%;
+    background-image: url("SofiasPics/orchid.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-color: #e2c792;
+    border-bottom-style: solid;
+    border-bottom-width: 50px;
     
 }
 
 p.welcome{
     border-style: solid;
     border-width: 0px 0px 0px 20px;
-    border-color:  #d8a75d;
+    border-color:  #e2c792;
     margin-left: 8px;
     padding: 4%;
+    text-align: left;
+    border-radius: 40px;
+    max-width:55%;
 }
 div.approach{
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
+    text-align: right;
     padding: 2%;
     background-color:  #d8a75d;
     line-height: 200%;
+    background-image: url("SofiasPics/water1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
     
 }
 
 p.approach{
-    border-style: solid;
-    border-width: 0px 20px 0px 0px;
-    border-color: #F8ECEC;
-    margin-right: 8px;
+    border-radius: 40px;
+    margin: 4%;
     padding: 4%;
+    border-style: solid ;
+    border-width:0px 20px 0px 0px ;
+    border-color: #e2c792;
+    background-color: rgba(247, 247, 242, 0.7);
+    text-align: right;
 }
-div.issues{
+div.services{
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
     padding: 2%;
-    background-color: #6C8685;
+    background-color: rgb(191, 194, 145, 0.5);
     line-height: 200%;
-    
+    background-image: url("SofiasPics/Plant.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;   
+    border-bottom-color: #e2c792;
+    border-bottom-style: solid;
+    border-bottom-width: 50px;
 
 }
+div.services2{
+    border-style: solid ;
+    border-width:0px 20px 0px 0px ;
+    border-color: #e2c792;
+    text-align: right;
+    border-radius: 40px;
 
+
+}
+p.services{
+    border-radius: 40px;
+    text-align: right;
+    margin-left: 50%;
+    
+
+    
+    padding-right: 15%;
+}
 ul{
     line-height: 200%;
     font-size: 150%;
-    border-style: solid;
-    border-width: 0px 20px 0px 0px;
-    border-color: #F8ECEC;
-    
-
+    text-align: right;
+    margin-left: 50%;
+    padding-right: 15%;
 }
+
+
 /*div.testimonials{
     background-color: #89afa1;
     content: "";
@@ -151,19 +202,28 @@ img.test2{
 } */
 
 div.contact{
-    background-color: linen;
+    background-color: #ffffff;
+    background-image: url("SofiasPics/water3.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
     
 
 }
+p.contact {
+    background-color:  rgba(250, 240, 240, 0.7);
+    padding: 2%;
 
+}
 
 input {
    width: 100%;
-    padding: 1%;
+    padding: 2%;
     border-radius: 10px;
     border: 3px solid #F8ECEC;
     outline: none;
     transition: 0.3s;
+    
   }
   input:focus {
       border: 3px solid #cfafaf;
@@ -180,6 +240,7 @@ input {
   textarea:focus {
     border: 3px solid#cfafaf;
   }
+  
   button.submit {
       background-color: #F8ECEC;
       border: none;
@@ -215,6 +276,7 @@ input {
   form {
       width:100%;
       padding: 5%;
+      
   } 
 
   
@@ -239,7 +301,7 @@ input {
         color: #f8e7af;
         color: #b2d8da;
         color: #053847;
-
+        color: rgb(191, 194, 145, 0.5)
 
  }
  

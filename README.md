@@ -13,7 +13,7 @@ Details about the site:
 
 
 TODO
-- fix the hamburger on smaller screens
-- sticky headings for smaller screens when you jump via nav
+
+
 - form style
 - portrait to flex

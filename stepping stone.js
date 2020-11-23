@@ -1,8 +1,6 @@
-/*<script>
-    function clicked(e)
-    {
-        if(!confirm('Are you certain?')) {
-            e.preventDefault();
-        }
-    }
-</script>*/
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
+
+
+    
