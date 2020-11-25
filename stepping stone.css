@@ -207,7 +207,7 @@ input {
   textarea:focus {
     border: 3px solid#cfafaf;
   }
-  button.submit {
+  button#submit {
       background-color: #F8ECEC;
       border: none;
       color: #164749;
@@ -219,7 +219,7 @@ input {
       transition-duration: 0.3s;
       margin-top: 4%;     
   }
-  button.submit:hover {
+  button#submit:hover {
       background-color: #cfafaf;
   }
   div.column {
