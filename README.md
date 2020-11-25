@@ -15,5 +15,11 @@ Details about the site:
 TODO
 
 
-- form style
-- portrait to flex
+- make form safe
+- send form to email
+- git hosting
+- attach to site
+- icons?
+- image sizing
+- background color
+- make logo lol
