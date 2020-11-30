@@ -119,7 +119,7 @@ div.about{
 div.welcome{
     background-color: rgb(125, 151, 151);
     padding:4%;
-    background-image: url("SofiasPics/orchid.JPG");
+    background-image: url("images/orchid.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom-color: #e2c792;
@@ -128,7 +128,7 @@ div.welcome{
 }
 @media only screen and (max-width: 767px) {
     div.welcome {
-      background-image: url("SofiasPics/orchid2.JPG");
+      background-image: url("images/orchid2.jpg");
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -144,7 +144,7 @@ div.approach{
     padding: 2%;
     background-color:  #d8a75d;
     line-height: 200%;
-    background-image: url("SofiasPics/water1.JPG");
+    background-image: url("images/water1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;   
@@ -155,7 +155,7 @@ div.topics{
     padding: 4%;
     background-color: rgb(191, 194, 145, 0.5);
     line-height: 200%;
-    background-image: url("SofiasPics/Plant.JPG");
+    background-image: url("images/Plant.jpg");
     background-size: cover;
     background-repeat: no-repeat;   
     border-bottom-color: #e2c792;
@@ -165,7 +165,7 @@ div.topics{
 @media only screen and (max-width: 900px) {
     div.topics {
       
-      background-image: url("SofiasPics/plant3.JPG");
+      background-image: url("images/plant3.jpg");
       background-size: cover;
       background-repeat: no-repeat;
     }  
@@ -179,7 +179,7 @@ div.topics2{
 }
 div.contact{
     background-color: #ffffff;
-    background-image: url("SofiasPics/water3.JPG");
+    background-image: url("images/water3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;   
