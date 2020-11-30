@@ -203,16 +203,21 @@ input {
     border: 3px solid  #F8ECEC;
     outline: none;
     transition: 0.3s;
+    text-align: left;
+    color: #164749;
+    font-family: 'Raleway' , sans-serif;
+    font-size: 16px;
   }
   textarea:focus {
     border: 3px solid#cfafaf;
+    
   }
   button#submit {
       background-color: #F8ECEC;
       border: none;
       color: #164749;
       padding: 3%;
-      text-align: center;
+      text-align: left;
       font-family: 'Raleway' , sans-serif;
       font-size: 16px;
       border-radius: 20%;

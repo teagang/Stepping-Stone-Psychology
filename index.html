@@ -98,19 +98,21 @@ My experience includes working as a counsellor for children and adolescents, sup
 <div class="row">
     <form action="" method="post" type="text/plain" >  
        <div class="column">   
-        <input id="name" type="text" placeholder="name" name="name" required>
+        <input id="name" type="text" placeholder="name" name="name" 
+        title="Name" maxlength="60" required>
     <br>
    <br>    
-        <input id="email" type="email" placeholder="email address" name="email" required>
+        <input id="email" type="email" placeholder="email address" name="email"
+        title="Email address" maxlength="40" required>
     <br>
     <br>   
-        <input id="phone" type="text" placeholder="contact number" name="phone" required>
+        <input id="phone" type="text" placeholder="contact number" name="phone" 
+        title="Phone number" maxlength="20" required>
     <br>
     <br>
        </div>
        <div class="column">        
-        <textarea id="notes" rows="6" type="text" placeholder="notes" name="notes">
-        </textarea>    
+        <textarea id="notes" rows="6" type="text" placeholder="notes" name="notes" title="Notes" maxlength="300"></textarea>    
     <br>
 
     
