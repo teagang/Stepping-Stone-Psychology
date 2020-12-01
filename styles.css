@@ -1,6 +1,7 @@
 body{
     background-color: rgb(125, 151, 151); 
     padding-top: 70px;   
+ 
 }
 html {
     scroll-padding-top: 70px; 
@@ -17,6 +18,7 @@ p.navlink{
     color:  #F8ECEC;
     transition: 0.3s;
     font-size: 100;
+   
 }
 p.navlink:hover{
     color: #cfafaf;
