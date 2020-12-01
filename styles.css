@@ -80,7 +80,8 @@ p.approach{
     border-width:0px 20px 0px 0px ;
     border-color: #e2c792;
     background-color: rgba(247, 247, 242, 0.8);
-    text-align: right;
+    text-align: left;
+    
 }
 p.topics{
     border-radius: 40px;
@@ -111,6 +112,10 @@ img.portrait{
    border-bottom: 20px solid rgba(247, 247, 242, 0.4);
     /*box-shadow: 0 4px 8px 0 rgb(8, 8, 8), 0 6px 20px 0 rgb(7, 7, 7);*/ 
     margin: 5%;   
+}
+img.couch{
+    
+    border-radius: 40px;
 }
 /*div styling*/
 div.water2{
@@ -163,7 +168,8 @@ div.approach{
     background-image: url("images/water1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;   
+    background-position: right;  
+ 
 }
 div.topics{
     font-family: 'Raleway' , sans-serif;
