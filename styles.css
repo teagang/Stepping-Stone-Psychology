@@ -201,6 +201,9 @@ div.contact{
     background-repeat: no-repeat;
     background-position: center;   
 }
+div.row{
+    margin: 0px;
+}
 /*form styling*/
 input {
    width: 100%;
@@ -261,7 +264,7 @@ input {
       }
   }   
   form {
-      width:100%;
+      width:90%;
       padding: 2%;    
   } 
 
