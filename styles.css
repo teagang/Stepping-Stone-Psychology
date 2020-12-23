@@ -171,7 +171,9 @@ div.approach{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;  
- 
+    display: flex;
+    flex-flow: column wrap;
+    
 }
 div.topics{
     font-family: 'Raleway' , sans-serif;
