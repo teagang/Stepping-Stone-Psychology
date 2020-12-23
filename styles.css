@@ -40,7 +40,7 @@ h2{
     text-align: center;
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
-    padding-top: 10%; 
+    padding-top: 3%; 
     font-size: 40px !important;
     font-weight: bold !important;     
 }
@@ -107,15 +107,17 @@ ul{
 img.portrait{
     top: 20%;
     float:right;
-    border-radius: 40px;
-    border-right: 20px solid rgba(247, 247, 242, 0.4);
-   border-bottom: 20px solid rgba(247, 247, 242, 0.4);
-    /*box-shadow: 0 4px 8px 0 rgb(8, 8, 8), 0 6px 20px 0 rgb(7, 7, 7);*/ 
-    margin: 5%;   
+    box-shadow: 0 4px 8px 0 rgb(8, 8, 8), 0 6px 20px 0 rgb(7, 7, 7); 
+    margin: 5%;
+    border-radius: 20%;   
 }
 img.couch{
     
-    border-radius: 40px;
+    
+    float:right;
+    box-shadow: 0 4px 8px 0 rgb(8, 8, 8), 0 6px 20px 0 rgb(7, 7, 7); 
+    margin: 5%;   
+    border-radius: 20%;
 }
 /*div styling*/
 div.water2{
