@@ -98,6 +98,10 @@ p.contact {
     background-color:  rgba(250, 240, 240, 0.8);
     padding: 2%;
 }
+p.testi{
+    font-style: italic;
+    font-size: 30px !important;
+}
 ul{
     list-style-type: none;
     text-align: center;
@@ -123,6 +127,11 @@ img.couch{
     box-shadow: 0 4px 8px 0 rgb(8, 8, 8), 0 6px 20px 0 rgb(7, 7, 7); 
     margin: 5%;   
     border-radius: 20%;
+}
+img.test{
+    border-radius:50%;
+    box-shadow: 0 4px 8px 0 rgb(8, 8, 8), 0 6px 20px 0 rgb(7, 7, 7);
+    margin: 3%; 
 }
 /*div styling*/
 div.water2{
@@ -215,6 +224,11 @@ div.topics2{
     text-align: right;
     border-radius: 40px;
    
+}
+div.testimonials{
+    background-image: url("images/diary.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 div.contact{
     background-color: #ffffff;

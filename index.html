@@ -30,6 +30,7 @@
             <a class="nav-link" href="#approach"><p class="navlink">Approach</p></a>
             <a class="nav-link" href="#about"> <p class="navlink">About</p></a>
             <a class="nav-link" href="#topics"><p class="navlink">Topics Addressed</p></a> 
+            <a class="nav-link" href="#testimonials"><p class="navlink">Testimonials</p></a>
             <a class="nav-link" href="#contact"><p class="navlink">Contact</p></a>
             <!--<a class="nav-link" href="#testimonials">Testimonials</a>-->
           </div>
@@ -92,6 +93,25 @@ My experience includes working as a counsellor for children and adolescents, sup
     </div>
 </div>
 
+<div class=testimonials>
+    <h2 id="testimonials">Testimonials</h2>
+
+<p class=testi>
+     <img src="images/purple flower.jpg" alt="photo of purple flower" style=width:10%  class="test">
+     “Sofia possesses a calmness and peace that allows those in her presence to find safety and rest”
+</p>
+<br>
+<p class=testi>
+    “Her clear mind is able to walk this earth with curiosity and critical thinking alike. Bright insights and useful ideas” 
+    <img src="images/red flower.jpg" alt="photo of red flower" style=width:10%  class="test">
+</p>
+
+<p class=testi>
+    <img src="images/blossoms.jpg" alt="photo of pink blossoms" style=width:10% class="test">
+    “Sofia has a soft yet confident demeanour which puts you at ease”
+</p>
+</div>
+
 <div class=contact>    
     <h2 id="contact">Contact</h2>
    <br>
@@ -103,7 +123,7 @@ My experience includes working as a counsellor for children and adolescents, sup
 </p>
 
 <div class="row">
-    <form action="" method="post" type="text/plain" >  
+    <form id="contactform" action="contactform.js" method="post" type="text/plain" >  
        <div class="column">   
         <input id="name" type="text" placeholder="name" name="name" 
         title="Name" maxlength="60" required>
@@ -123,7 +143,11 @@ My experience includes working as a counsellor for children and adolescents, sup
     <br>
 
     
-        <button id="submit" >submit</button>
+        <button id="submit" 
+        class="g-recaptcha" 
+        data-sitekey="6Le_RxUaAAAAAPH_9VkK0kKUZmj7Ywo_HlomDLvB" 
+        data-callback='onSubmit' 
+        data-action='submit'>submit</button>
    
     
        </div>       
@@ -132,19 +156,7 @@ My experience includes working as a counsellor for children and adolescents, sup
 </div>
 </div>
 
- <div class=testimonials>
-    <h2 id="testimonials">Testimonials</h2>
-<p>Include blurbs and quotes from patients/references</p>
-<p class=testi>
-     <img src="images/purple flower.jpg" alt="photo of Y" style=width:10%  class="test1">
-     "Example text" <span class=testname>- Name, About</span>
-</p>
-<br>
-<p class=testi>
-    "More example text" <span class=testname>- Name, About</span>
-    <img src="images/red flower.jpg" alt="photo of X" style=width:10%  class="test2">
-</p>
-</div>  
+   
 
 </body>
 
@@ -153,5 +165,8 @@ My experience includes working as a counsellor for children and adolescents, sup
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 <script src="index.js"></script>
+
+<!-- this is the recaptcha script API-->
+<script src="https://www.google.com/recaptcha/api.js?render=6Le_RxUaAAAAAPH_9VkK0kKUZmj7Ywo_HlomDLvB"></script>
 
 </html>
