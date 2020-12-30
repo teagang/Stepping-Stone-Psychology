@@ -174,7 +174,7 @@ function test_input($data) {
     <form id="contactform" method="post" type="text/plain" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">    
        <div class="column">   
        Name: <input id="name" type="text" placeholder="name" name="name" 
-        title="Name" maxlength="60" value="<?php echo $name;?>">
+        title="Name" maxlength="60" >
         <span class="error">* <?php echo $nameErr;?></span>
     <br>
    <br>    
