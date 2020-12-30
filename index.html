@@ -112,6 +112,53 @@ My experience includes working as a counsellor for children and adolescents, sup
 </p>
 </div>
 
+
+<?php
+$name = $email = $phone = $notes = "";
+
+if ($_SERVER["REQUEST__METHOD"] == "POST") {
+    if (empty($_POST["name"])) {
+        $nameErr = "Name is required";
+    } else{
+        $name = test_input($_POST["name"]);
+        if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
+            $nameErr = "Only letters and white space allowed" ;
+        }
+    }
+    
+    if (empty($_POST["email"])) {
+        $emailErr = "Email is required";
+      } else {
+        $email = test_input($_POST["email"]);
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+          $emailErr = "Invalid email format";
+        }
+      }
+    
+
+      if (empty($_POST["phone"])) {
+          $phone = "";
+      } else {
+          $phone = test_input($_POST["phone"]);
+        if (!preg_match("/^[0-9]*$/",$phone)) {
+          $phoneErr = "Please enter a valid phone number";
+        }
+      } 
+      
+      if (empty($_POST["notes"])) {
+        $notes = "";
+      } else {
+        $notes = test_input($_POST["notes"]);
+      }   
+
+function test_input($data) {
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+?>
+
 <div class=contact>    
     <h2 id="contact">Contact</h2>
    <br>
@@ -123,23 +170,27 @@ My experience includes working as a counsellor for children and adolescents, sup
 </p>
 
 <div class="row">
-    <form id="contactform" action="contactform.js" method="post" type="text/plain" >  
+    <p><span class="error">* required field</span></p>
+    <form id="contactform" method="post" type="text/plain" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">    
        <div class="column">   
-        <input id="name" type="text" placeholder="name" name="name" 
-        title="Name" maxlength="60" required>
+       Name: <input id="name" type="text" placeholder="name" name="name" 
+        title="Name" maxlength="60" value="<?php echo $name;?>">
+        <span class="error">* <?php echo $nameErr;?></span>
     <br>
    <br>    
-        <input id="email" type="email" placeholder="email address" name="email"
-        title="Email address" maxlength="40" required>
+       Email: <input id="email" type="text" placeholder="email address" name="email"
+        title="Email address" maxlength="40" value="<?php echo $email;?>">
+        <span class="error">* <?php echo $emailErr;?></span>
     <br>
     <br>   
-        <input id="phone" type="text" placeholder="contact number" name="phone" 
-        title="Phone number" maxlength="20" required>
+        Phone: <input id="phone" type="text" placeholder="contact number" name="phone" 
+        title="Phone number" maxlength="20" value="<?php echo $phone;?>">
+        <span class="error">* <?php echo $phoneErr;?></span>
     <br>
     <br>
        </div>
        <div class="column">        
-        <textarea id="notes" rows="6" type="text" placeholder="notes" name="notes" title="Notes" maxlength="300"></textarea>    
+        <textarea id="notes" rows="6" type="text" placeholder="notes" name="notes" title="Notes" maxlength="300" <?php echo $comment;?></textarea>    
     <br>
 
     
@@ -155,6 +206,16 @@ My experience includes working as a counsellor for children and adolescents, sup
 </div>
 </div>
 </div>
+
+<?php
+echo $name;
+echo "<br>";
+echo $emial;
+echo "<br>";
+echo $phone;
+echo "<br>";
+echo $notes;
+?>
 
    
 
