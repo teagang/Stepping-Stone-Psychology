@@ -1,3 +1,7 @@
+
+<html>
+  <head>
+</head>
 <?php // Check if form was submitted:
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])) {
 
@@ -85,3 +89,5 @@ $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 echo "Thank you for contacting Stepping Stone!";
 ?>
+
+</html> 
