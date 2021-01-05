@@ -112,14 +112,65 @@ My experience includes working as a counsellor for children and adolescents, sup
 </p>
 </div>
 
-<div class="contact">
-    <form action="mail.php" method="POST">
-    <p>Name</p> <input type="text" name="name">
-    <p>Email</p> <input type="text" name="email">
-    <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-    <input type="submit" value="Send"><input type="reset" value="Clear">
-    </form>
+<div class=contact>    
+    <h2 id="contact">Contact</h2>
+   <br>
+   <br>
+   <br>
+   <br>
+<p class="contact">
+    Coming here today is the first step on your path to better mental health. Continue this journey and book a session through the contact form today.
+</p>
+
+<div class="row">
+    
+    <form id="contactform" method="post" type="text/plain" action="mail.php" required>    
+       <div class="column">   
+       Name: <input id="name" type="text" placeholder="name" name="name" 
+        title="Name" maxlength="60" >
+    <br>
+   <br>    
+       Email: <input id="email" type="text" placeholder="email address" name="email"
+        title="Email address" maxlength="40" required>
+    <br>
+    <br>   
+        Phone: <input id="phone" type="text" placeholder="contact number" name="phone" 
+        title="Phone number" maxlength="20" >
+    <br>
+    <br>
+       </div>
+       <div class="column">        
+        <textarea id="notes" rows="6" type="text" placeholder="notes" name="notes" title="Notes" maxlength="300"></textarea>    
+    <br>
+
+    
+        <button id="submit" 
+        class="g-recaptcha" 
+        data-sitekey="6Le_RxUaAAAAAPH_9VkK0kKUZmj7Ywo_HlomDLvB" 
+        data-callback='onSubmit' 
+        data-action='submit'>submit</button>
+        <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+    
+       </div>       
+</form>
 </div>
+</div>
+</div>
+
+
+
+this is the recaptcha script API
+<script src="https://www.google.com/recaptcha/api.js?render=6Le_RxUaAAAAAPH_9VkK0kKUZmj7Ywo_HlomDLvB"></script>
+
+<script>
+    grecaptcha.ready(function () {
+        grecaptcha.execute('6Le_RxUaAAAAAPH_9VkK0kKUZmj7Ywo_HlomDLvB', { action: 'submit' }).then(function (token) {
+            var recaptchaResponse = document.getElementById('recaptchaResponse');
+            recaptchaResponse.value = token;
+        });
+    });
+</script>
+
 
 
 </body>
