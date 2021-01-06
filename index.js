@@ -14,4 +14,9 @@ $('.navbar-collapse a').click(function(){
 
 
 
-
+emailjs.sendForm('default_service', 'template_uzo25ap', '#myForm')
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
