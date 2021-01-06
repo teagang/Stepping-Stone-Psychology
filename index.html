@@ -27,7 +27,8 @@
             emailjs.sendForm('stepping_stone', 'template_uzo25ap', this)
                 .then(function() {
                     console.log('SUCCESS!')
-                    alert("Thank you for contacting Stepping Stone");
+                    alert("Thank you for contacting Stepping Stone")
+                    document.getElementById("contact-form").reset();
                 }, function(error) {
                     console.log('FAILED...', error);
                 });
