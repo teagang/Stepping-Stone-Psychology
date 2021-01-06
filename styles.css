@@ -302,6 +302,9 @@ input {
       clear: both;
   }
   @media screen and (max-width: 900px){
+      textarea {
+          margin-top: 4%;
+      }
       div.column {
           width: 100%;
       }
