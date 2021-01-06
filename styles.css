@@ -306,7 +306,12 @@ input {
       width:90%;
       padding: 2%;    
   } 
-  
+  /*captcha styling*/
+  @media screen and (max-width: 991px){
+    .grecaptcha-badge { 
+    transform:scale(0.85); 
+    -webkit-transform:scale(0.85); }
+    }
 
   
  spare colors{
