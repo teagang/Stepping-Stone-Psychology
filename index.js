@@ -17,6 +17,7 @@ $('.navbar-collapse a').click(function(){
 emailjs.sendForm('gmail', 'template_uzo25ap', '#myForm')
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
+       alert("Thank you for contacting Stepping Stone");
     }, function(error) {
        console.log('FAILED...', error);
     });

@@ -15,7 +15,7 @@ h1{
     color: #F8ECEC;  
     margin: 0px 0px 0px 0px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     h1 {
         font-size:7vw !important;
     }
@@ -39,12 +39,12 @@ p.navlink:hover{
 h2{ 
     text-align: center;
     font-family: 'Raleway' , sans-serif;
-    color: #003e41;
+    color: #01522a;
     padding-top: 3%; 
     font-size: 40px !important;
     font-weight: bold !important;     
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     h2 {
         padding-top: 12%;
     }
@@ -161,7 +161,7 @@ div.welcome{
     border-bottom-style: solid;
     border-bottom-width: 50px;    
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     div.welcome {
       background-image: url("images/orchid2.jpg");
       background-size: cover;
@@ -226,12 +226,16 @@ div.topics2{
    
 }
 div.testimonials{
+    background-color: #86b2c4;
     background-image: url("images/diary.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    border-bottom-color: #e2c792;
+    border-bottom-style: solid;
+    border-bottom-width: 50px;
 }
 div.contact{
-    background-color: #ffffff;
+    background-color: #86b2c4;
     background-image: url("images/water3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -297,7 +301,7 @@ input {
       display: table;
       clear: both;
   }
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 900px){
       div.column {
           width: 100%;
       }
@@ -306,12 +310,12 @@ input {
       width:90%;
       padding: 2%;    
   } 
-  /*captcha styling*/
+  /*captcha styling
   @media screen and (max-width: 991px){
     .grecaptcha-badge { 
     transform:scale(0.85); 
     -webkit-transform:scale(0.85); }
-    }
+    }*/
 
   
  spare colors{
