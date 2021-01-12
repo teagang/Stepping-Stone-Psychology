@@ -148,7 +148,7 @@ div.about{
     clear: both;
     display: table;
     padding:4%;
-    background-color: #6C8685;
+    background-color: #99bdbb;
     line-height: 200%;   
 }
 div.welcome{
@@ -242,12 +242,12 @@ div.contact{
     background-position: center;   
 }
 @media only screen and (max-width: 900px) {
-    div.contact {
-      
+    div.contact{
       background-image: url("water3media.jpg");
       background-size: cover;
       background-repeat: no-repeat;
     }
+}
 div.row{
     margin: 0px;
 }
