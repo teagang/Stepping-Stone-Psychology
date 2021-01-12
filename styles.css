@@ -102,6 +102,11 @@ p.testi{
     font-style: italic;
     font-size: 30px !important;
 }
+@media screen and (max-width: 900px) {
+    p.testi{
+        font-size: 10px;
+    }
+}
 ul{
     list-style-type: none;
     text-align: center;
