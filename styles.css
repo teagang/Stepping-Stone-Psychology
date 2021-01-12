@@ -241,6 +241,13 @@ div.contact{
     background-repeat: no-repeat;
     background-position: center;   
 }
+@media only screen and (max-width: 900px) {
+    div.contact {
+      
+      background-image: url("water3media.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
 div.row{
     margin: 0px;
 }
@@ -302,9 +309,7 @@ input {
       clear: both;
   }
   @media screen and (max-width: 900px){
-      textarea {
-          margin-top: 4%;
-      }
+     
       div.column {
           width: 100%;
       }
