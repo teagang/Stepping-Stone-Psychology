@@ -104,7 +104,7 @@ p.testi{
 }
 @media screen and (max-width: 900px) {
     p.testi{
-        font-size: 10px;
+        font-size: 15px !important;
     }
 }
 ul{
@@ -194,11 +194,20 @@ div.approach{
     flex-flow: column wrap;
     
 }
+@media only screen and (max-width: 900px) {
+    div.approach {
+      background-image: url("images/water1media.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+}
+
 div.topics{
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
     padding: 4%;
-    background-color: rgb(191, 194, 145, 0.5);
+    background-color: rgba(215, 218, 183, 0.8);
     line-height: 200%;
     background-image: url("images/plant.jpg");
     background-size: cover;
@@ -248,7 +257,7 @@ div.contact{
 }
 @media only screen and (max-width: 900px) {
     div.contact{
-      background-image: url("water3media.jpg");
+      background-image: url("images/water3media.jpg");
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -299,6 +308,10 @@ input {
       max-width: 25%; 
       float: right;   
   }
+
+  div.submit{
+      align-items: center;
+  }
   input#submit:hover {
       background-color: #cfafaf;
   }
@@ -323,13 +336,16 @@ input {
       width:90%;
       padding: 2%;    
   } 
-  /*captcha styling
-  @media screen and (max-width: 991px){
-    .grecaptcha-badge { 
-    transform:scale(0.85); 
-    -webkit-transform:scale(0.85); }
-    }*/
-
+  /*captcha styling*/
+  @media screen and (max-width: 900px){ 
+    div.g-recaptcha {
+    transform:scale(0.77);
+    -webkit-transform:scale(0.77);
+    transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+    float:left;
+    } 
+    
   
  spare colors{
         color: linen;
