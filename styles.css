@@ -101,6 +101,7 @@ p.contact {
 p.testi{
     font-style: italic;
     font-size: 30px !important;
+    padding: 4%; 
 }
 @media screen and (max-width: 900px) {
     p.testi{
@@ -122,21 +123,10 @@ img.portrait{
     top: 20%;
     float:right;
     box-shadow: 0 4px 8px 0 rgb(8, 8, 8), 0 6px 20px 0 rgb(7, 7, 7); 
-    margin: 5%;
-    border-radius: 20%;   
-}
-img.couch{
-    
-    
-    float:right;
-    box-shadow: 0 4px 8px 0 rgb(8, 8, 8), 0 6px 20px 0 rgb(7, 7, 7); 
     margin: 5%;   
-    border-radius: 20%;
 }
-img.test{
-    border-radius:50%;
-    box-shadow: 0 4px 8px 0 rgb(8, 8, 8), 0 6px 20px 0 rgb(7, 7, 7);
-    margin: 3%; 
+
+
 }
 /*div styling*/
 div.water2{
@@ -186,7 +176,7 @@ div.approach{
     padding: 2%;
     background-color:  #d8a75d;
     line-height: 200%;
-    background-image: url("images/water1.jpg");
+    background-image: url("images/couch.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;  
@@ -196,7 +186,7 @@ div.approach{
 }
 @media only screen and (max-width: 900px) {
     div.approach {
-      background-image: url("images/water1media.jpg");
+      background-image: url("images/couch.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       
@@ -255,7 +245,7 @@ div.contact{
     background-repeat: no-repeat;
     background-position: center;   
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     div.contact{
       background-image: url("images/water3media.jpg");
       background-size: cover;
