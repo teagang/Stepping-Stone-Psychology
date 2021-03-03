@@ -180,7 +180,7 @@ div.approach{
     background-image: url("images/yellowcouch.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;  
+    background-position: initial;  
     display: flex;
     flex-flow: column wrap;
     
