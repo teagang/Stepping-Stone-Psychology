@@ -102,7 +102,6 @@ p.testi{
     font-style: italic;
     font-size: 30px !important;
     padding: 4%; 
-    float:left;
 }
 @media screen and (max-width: 900px) {
     p.testi{
