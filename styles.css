@@ -176,7 +176,7 @@ div.approach{
     padding: 2%;
     background-color:  #d8a75d;
     line-height: 200%;
-    background-image: url("images/couch.jpg");
+    background-image: url("images/yellowcouch.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;  
@@ -186,7 +186,7 @@ div.approach{
 }
 @media only screen and (max-width: 900px) {
     div.approach {
-      background-image: url("images/couch.jpg");
+      background-image: url("images/yellowcouch.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       
