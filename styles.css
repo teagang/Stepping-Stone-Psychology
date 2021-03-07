@@ -146,6 +146,9 @@ div.about{
     background-color: #99bdbb;
     line-height: 200%;   
 }
+div.hi{
+    font-size: 30px !important;
+}
 div.welcome{
     background-color: rgb(125, 151, 151);
     padding:4%;
