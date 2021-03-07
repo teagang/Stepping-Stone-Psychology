@@ -65,7 +65,8 @@ p.about{
     border-style: solid ;
     border-width:0px 0px 0px 20px ;
     border-color: #e2c792  ;
-    border-radius: 40px;   
+    border-radius: 40px; 
+    background-color: rgba(247, 247, 242, 0.8);  
 }
 p.welcome{
     border-style: solid;
@@ -95,7 +96,7 @@ p.topics{
     padding-right: 15%;
 }
 p.contact {
-    background-color:  rgba(250, 240, 240, 0.8);
+    background-color:  rgba(80, 19, 19, 0.9);
     padding: 2%;
 }
 p.testi{
@@ -144,11 +145,10 @@ div.about{
     display: table;
     padding:4%;
     background-color: #99bdbb;
-    line-height: 200%;   
+    line-height: 200%; 
+    background-image: url("images/leaves.jpg");  
 }
-div.hi{
-    font-size: 30px !important;
-}
+
 div.welcome{
     background-color: rgb(125, 151, 151);
     padding:4%;
