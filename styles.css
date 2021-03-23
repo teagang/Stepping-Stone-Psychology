@@ -17,7 +17,7 @@ h1{
 }
 @media screen and (max-width: 900px) {
     h1 {
-        font-size:7vw !important;
+        font-size:10vw;
     }
   }
 
@@ -40,15 +40,32 @@ h2{
     text-align: center;
     font-family: 'Raleway' , sans-serif;
     color: #01522a;
+    text-shadow: whitesmoke;
     padding-top: 3%; 
-    font-size: 40px !important;
-    font-weight: bold !important;     
+    font-size: 40px;
+    font-weight: bold;     
 }
 @media screen and (max-width: 900px) {
     h2 {
         padding-top: 12%;
     }
   }
+  span.approach{
+      background-color: rgba(247, 247, 242, 0.9);
+     border-radius: 40px;
+     border-style: solid ;
+    border-width:0px 20px 0px 0px ;
+    border-color: #e2c792;
+    margin: 4%;
+    padding: 4%;
+  }
+  h2.approach{
+      padding-bottom: 4%;
+  }
+  /*span styling*/
+ .hi{
+     font-size: 2em;
+ }
 /*paragraph styling*/
 p{
     text-align: center;
@@ -65,7 +82,9 @@ p.about{
     border-style: solid ;
     border-width:0px 0px 0px 20px;
     border-color: #e2c792;
-    border-radius: 40px;   
+    border-radius: 40px; 
+    background-color:  rgba(247, 247, 242, 0.9);  
+    overflow:auto;
 }
 p.welcome{
     border-style: solid;
@@ -79,12 +98,8 @@ p.welcome{
 }
 p.approach{
     border-radius: 40px;
-    margin: 4%;
-    padding: 4%;
-    border-style: solid ;
-    border-width:0px 20px 0px 0px ;
-    border-color: #e2c792;
-    background-color: rgba(247, 247, 242, 0.8);
+
+    
     text-align: left;
     
 }
@@ -100,12 +115,13 @@ p.contact {
 }
 p.testi{
     font-style: italic;
-    font-size: 30px !important;
+    font-size: 30px;
     padding: 4%; 
+    text-align: right;
 }
 @media screen and (max-width: 900px) {
     p.testi{
-        font-size: 15px !important;
+        font-size: 15px;
     }
 }
 ul{
@@ -123,7 +139,8 @@ img.portrait{
     top: 20%;
     float:right;
     box-shadow: 0 4px 8px 0 rgb(8, 8, 8), 0 6px 20px 0 rgb(7, 7, 7); 
-    margin: 5%;   
+    margin: 5%; 
+    
 }
 
 
@@ -145,7 +162,12 @@ div.about{
     padding:4%;
     background-color: #99bdbb;
     line-height: 200%; 
-    background-image: url("images/leaves.jpg");  
+    background-image: url("images/canals.jpg"); 
+    background-size: cover; 
+    background-position: center;
+    border-bottom-color: #e2c792;
+    border-bottom-style: solid;
+    border-bottom-width: 50px;
 }
 
 div.welcome{
@@ -178,17 +200,20 @@ div.approach{
     padding: 2%;
     background-color:  #d8a75d;
     line-height: 200%;
-    background-image: url("images/yellowcouch.jpg");
+    background-image: url("images/trees.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: initial;  
     display: flex;
     flex-flow: column wrap;
+    border-bottom-color: #e2c792;
+    border-bottom-style: solid;
+    border-bottom-width: 50px;
     
 }
 @media only screen and (max-width: 900px) {
     div.approach {
-      background-image: url("images/yellowcouch.jpg");
+      background-image: url("images/trees.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       
@@ -233,7 +258,7 @@ div.topics2{
 }
 div.testimonials{
     background-color: #86b2c4;
-    background-image: url("images/diary1.jpg");
+    background-image: url("images/plainbook.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom-color: #e2c792;
@@ -363,26 +388,3 @@ input {
         color: rgb(191, 194, 145, 0.5)
 
  }
- /*Spare styling for if we implement the testimonials section
- div.testimonials{
-    background-color: #89afa1;
-    content: "";
-    clear: both;
-    display: table;
-    padding:2%;
-
-}
-img.test1{
-    border-radius: 50%;   
-}
-p.testi{
-    font-size: 30px;
-    font-style: italic;
-}
-span.testname{
-    font-size: 20px;
-    font-style: normal;
-}
-img.test2{
-    border-radius: 50%;
-} */
