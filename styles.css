@@ -59,6 +59,7 @@ h2{
     margin: 4%;
     padding: 4%;
   }
+  
   h2#approach{
       padding-bottom: 4%;
   }
@@ -116,8 +117,11 @@ p.contact {
 p.testi{
     font-style: italic;
     font-size: 30px;
-    padding: 4%; 
+    padding: 1%; 
     text-align: right;
+    background-color:  rgba(247, 247, 242, 0.9);
+    border-radius: 40px;
+    margin: 6%;
 }
 @media screen and (max-width: 900px) {
     p.testi{
