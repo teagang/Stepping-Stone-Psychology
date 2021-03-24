@@ -59,7 +59,7 @@ h2{
     margin: 4%;
     padding: 4%;
   }
-  h2.approach{
+  h2#approach{
       padding-bottom: 4%;
   }
   /*span styling*/
