@@ -60,7 +60,16 @@ h2{
         padding-top: 12%;
     }
   }
-  span.approach{
+ 
+  
+  h2#approach{
+      padding-bottom: 4%;
+  }
+  /*span styling*/
+  span.navbar-toggler-icon{
+    color: #cfafaf;
+  }
+   span.approach{
       background-color: rgba(247, 247, 242, 0.9);
      border-radius: 40px;
      border-style: solid ;
@@ -69,11 +78,7 @@ h2{
     margin: 4%;
     padding: 4%;
   }
-  
-  h2#approach{
-      padding-bottom: 4%;
-  }
-  /*span styling*/
+
  .hi{
      font-size: 2em;
  }
@@ -320,7 +325,11 @@ input {
   }
   textarea:focus {
     border: 3px solid#cfafaf;
-    
+  }
+  @media screen and (max-width: 900px){
+      textarea{
+          margin-top: 5%;
+      }
   }
 
   input#submit {
@@ -366,6 +375,7 @@ input {
       padding: 2%;    
   } 
   /*captcha styling*/
+ 
   @media screen and (max-width: 900px){ 
     div.g-recaptcha {
     transform:scale(0.77);
@@ -373,7 +383,11 @@ input {
     transform-origin:0 0;
     -webkit-transform-origin:0 0;
     float:left;
+    padding-top: 0%;
+    margin-top: 0%;
     } 
+  
+}
     
   
  spare colors{
