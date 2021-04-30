@@ -65,6 +65,11 @@ h2{
   h2#approach{
       padding-bottom: 4%;
   }
+
+  h2#testimonials{
+      display: inline-flex;
+      justify-content: right;
+  }
   /*span styling*/
   span.navbar-toggler-icon{
     color: #cfafaf;
@@ -132,11 +137,15 @@ p.contact {
 p.testi{
     font-style: italic;
     font-size: 18px;
-    padding: 1%; 
-    text-align: right;
+    padding: 2%; 
     background-color:  rgba(247, 247, 242, 0.9);
     border-radius: 40px;
-    margin: 6%;
+    margin: 2%;
+    display: inline-block;
+    text-align: right;
+    justify-content: right;
+    
+    
 }
 @media screen and (max-width: 900px) {
     p.testi{
@@ -154,6 +163,14 @@ ul{
     padding-right: 15%;
 }
 /*image styling*/
+img.logo{
+    max-height: 25%;
+    max-width: 25%;
+}
+img.imagelogo{
+    max-width: 25%;
+    display: inline-flex;
+}
 img.portrait{
     top: 20%;
     float:right;
