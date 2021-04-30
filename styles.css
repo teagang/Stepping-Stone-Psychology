@@ -33,12 +33,12 @@ h1.desktop{
 }
 
 p.navlink{
-    color:  #F8ECEC;
+    color:  #003e41;
     transition: 0.3s;
    
 }
 p.navlink:hover{
-    color: #cfafaf;
+    color: #339297;
     text-decoration: underline;
 }
 
@@ -170,6 +170,11 @@ img.logo{
 img.imagelogo{
     max-width: 25%;
     display: inline-flex;
+}
+img.logocrop{
+    max-width: 20%;
+    display: inline-flex;
+    border-radius: 40px;
 }
 img.portrait{
     top: 20%;
