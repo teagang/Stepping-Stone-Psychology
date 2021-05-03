@@ -141,11 +141,7 @@ p.testi{
     background-color:  rgba(247, 247, 242, 0.9);
     border-radius: 40px;
     margin: 2%;
-    display: inline-block;
-    text-align: right;
-    justify-content: right;
-    
-    
+    display: inline-block;   
 }
 @media screen and (max-width: 900px) {
     p.testi{
@@ -303,6 +299,12 @@ div.testimonials{
     border-bottom-color: #e2c792;
     border-bottom-style: solid;
     border-bottom-width: 50px;
+}
+div.flex-container{
+display: flex;
+flex-direction: column;
+text-align: right;
+display: block;
 }
 div.contact{
     background-color: #86b2c4;
