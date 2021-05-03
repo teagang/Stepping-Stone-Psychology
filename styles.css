@@ -166,6 +166,8 @@ ul{
 img.logo{
     max-height: 20%;
     max-width: 15%;
+    padding-right: 2%;
+   
 }
 @media screen and (max-width: 900px) {
     img.logo{
@@ -176,6 +178,7 @@ img.logo{
 img.imagelogo{
     max-width: 25%;
     display: inline-flex;
+    
 }
 img.logocrop{
     max-width: 20%;
