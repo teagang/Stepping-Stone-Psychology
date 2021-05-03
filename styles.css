@@ -33,12 +33,12 @@ nav{
 }*/
 
 p.navlink{
-    color:  #003e41;
+    color:  #2b535e;
     transition: 0.3s;
    
 }
 p.navlink:hover{
-    color: #339297;
+    color: #57a1b6;
     text-decoration: underline;
 }
 
@@ -47,7 +47,7 @@ p.navlink:hover{
 h2{ 
     text-align: center;
     font-family: 'Raleway' , sans-serif;
-    color: #01522a;
+    color: #2b535e;
     text-shadow: whitesmoke;
     padding-top: 3%; 
     font-size: 40px;
