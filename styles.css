@@ -9,7 +9,7 @@ html {
 nav{
     font-family: 'Raleway' , sans-serif;     
 }
-h1.desktop{ 
+/*h1.desktop{ 
     text-align: left;
     font-family: 'Raleway' , sans-serif;
     color: #F8ECEC;  
@@ -30,7 +30,7 @@ h1.desktop{
     font-family: 'Raleway' , sans-serif;
     color: #F8ECEC; 
     }
-}
+}*/
 
 p.navlink{
     color:  #003e41;
@@ -41,8 +41,6 @@ p.navlink:hover{
     color: #339297;
     text-decoration: underline;
 }
-
-
 
 
 
@@ -66,14 +64,20 @@ h2{
       padding-bottom: 4%;
   }
 
-  h2#testimonials{
+  /*h2#testimonials{
       display: inline-flex;
       justify-content: right;
-  }
+  }*/
   /*span styling*/
   span.navbar-toggler-icon{
     color: #cfafaf;
   }
+  @media screen and (max-width: 700px){
+      button.navbar-toggler{
+    float: left;
+  }
+  }
+  
    span.approach{
       background-color: rgba(247, 247, 242, 0.9);
      border-radius: 40px;
@@ -160,8 +164,14 @@ ul{
 }
 /*image styling*/
 img.logo{
-    max-height: 25%;
-    max-width: 25%;
+    max-height: 20%;
+    max-width: 15%;
+}
+@media screen and (max-width: 900px) {
+    img.logo{
+       display: inline-flex;
+        max-width: 35%;
+    }
 }
 img.imagelogo{
     max-width: 25%;
