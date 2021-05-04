@@ -9,10 +9,10 @@ html {
 nav{
     font-family: 'Raleway' , sans-serif;     
 }
-/*h1.desktop{ 
+h1.desktop{ 
     text-align: left;
     font-family: 'Raleway' , sans-serif;
-    color: #F8ECEC;  
+    color: #2b535e;  
     margin: 0px 0px 0px 0px;
 }
 @media screen and (max-width: 700px) {
@@ -28,17 +28,18 @@ nav{
         display: flex;
         text-align: left;
     font-family: 'Raleway' , sans-serif;
-    color: #F8ECEC; 
+    color: #2b535e;
+ 
     }
-}*/
+}
 
 p.navlink{
-    color:  #cfafaf;
+    color:#e2c792;
     transition: 0.3s;
    
 }
 p.navlink:hover{
-    color: #F8ECEC;
+    color: #fcf3e0;
     text-decoration: underline;
 }
 
