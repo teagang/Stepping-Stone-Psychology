@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(125, 151, 151); 
+    background-color: rgb(255, 255, 255); 
       
  
 }
@@ -33,12 +33,12 @@ nav{
 }*/
 
 p.navlink{
-    color:  #2b535e;
+    color:  #cfafaf;
     transition: 0.3s;
    
 }
 p.navlink:hover{
-    color: #57a1b6;
+    color: #F8ECEC;
     text-decoration: underline;
 }
 
