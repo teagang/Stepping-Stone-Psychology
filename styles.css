@@ -1,7 +1,7 @@
 body{
     background-color: rgb(255, 255, 255); 
-      
- 
+    background-size: cover;  
+    background: no-repeat center fixed;
 }
 html {
     scroll-padding-top: 70px; 
@@ -9,28 +9,9 @@ html {
 nav{
     font-family: 'Raleway' , sans-serif;     
 }
-h1.desktop{ 
-    text-align: left;
+h1{ 
     font-family: 'Raleway' , sans-serif;
     color: #2b535e;  
-    margin: 0px 0px 0px 0px;
-}
-@media screen and (max-width: 700px) {
-    h1.desktop {
-        display: none;
-    }
-  }
-  h1.mobile{
-      display: none;
-  }
-@media screen and (max-width: 700px){
-    h1.mobile{
-        display: flex;
-        text-align: left;
-    font-family: 'Raleway' , sans-serif;
-    color: #2b535e;
- 
-    }
 }
 
 p.navlink{
@@ -52,32 +33,19 @@ h2{
     text-shadow: whitesmoke;
     padding-top: 3%; 
     font-size: 40px;
-    font-weight: bold;     
+    /* font-weight: bold;      */
 }
 @media screen and (max-width: 900px) {
     h2 {
         padding-top: 12%;
     }
   }
- 
   
   h2#approach{
       padding-bottom: 4%;
   }
 
-  /*h2#testimonials{
-      display: inline-flex;
-      justify-content: right;
-  }*/
   /*span styling*/
-  span.navbar-toggler-icon{
-    color: #cfafaf;
-  }
-  @media screen and (max-width: 700px){
-      button.navbar-toggler{
-    float: left;
-  }
-  }
   
    span.approach{
       background-color: rgba(247, 247, 242, 0.9);
@@ -124,8 +92,6 @@ p.welcome{
 }
 p.approach{
     border-radius: 40px;
-
-    
     text-align: left;
     
 }
@@ -164,27 +130,10 @@ ul{
     padding-right: 15%;
 }
 /*image styling*/
-img.logo{
-    max-height: 20%;
-    max-width: 15%;
-    padding-right: 2%;
-   
-}
-@media screen and (max-width: 900px) {
-    img.logo{
-       display: inline-flex;
-        max-width: 35%;
-    }
-}
-img.imagelogo{
-    max-width: 25%;
-    display: inline-flex;
-    
-}
-img.logocrop{
+img#logo{
+    max-height: 90%;
     max-width: 20%;
-    display: inline-flex;
-    border-radius: 40px;
+    float: right;
 }
 
 img.portrait{
@@ -415,7 +364,7 @@ input {
   } 
   /*captcha styling*/
  
-  @media screen and (max-width: 900px){ 
+  /* @media screen and (max-width: 900px){ 
     div.g-recaptcha {
     transform:scale(0.77);
     -webkit-transform:scale(0.77);
@@ -426,7 +375,7 @@ input {
     margin-top: 0%;
     } 
   
-}
+} */
     
   
  spare colors{
