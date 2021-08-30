@@ -145,7 +145,7 @@ img.portrait{
 }
 
 img.nip{
-    margin: 2%;
+    margin: 1%;
     max-width: 150px;
 }
 
@@ -369,18 +369,10 @@ input {
   } 
   /*captcha styling*/
  
-  /* @media screen and (max-width: 900px){ 
-    div.g-recaptcha {
-    transform:scale(0.77);
-    -webkit-transform:scale(0.77);
-    transform-origin:0 0;
-    -webkit-transform-origin:0 0;
-    float:left;
-    padding-top: 0%;
-    margin-top: 0%;
-    } 
-  
-} */
+div.g-recaptcha{
+    display: flex;
+    
+}
     
   
  spare colors{
