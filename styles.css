@@ -144,6 +144,11 @@ img.portrait{
     
 }
 
+img.nip{
+    margin: 2%;
+    max-width: 150px;
+}
+
 /*div styling*/
 div.water2{
     display: block;
