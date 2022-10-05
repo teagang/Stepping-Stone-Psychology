@@ -114,7 +114,7 @@ p.testi{
     margin: 2%;
     display: inline-block;   
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
 p{
     font-size: 120%;
 }
