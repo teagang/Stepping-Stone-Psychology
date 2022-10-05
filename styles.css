@@ -367,6 +367,10 @@ input {
       width:90%;
       padding: 2%;    
   } 
+
+  label {
+    color: white; 
+  }
   /*captcha styling*/
  
 div.g-recaptcha{
