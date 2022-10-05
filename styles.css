@@ -66,7 +66,7 @@ p{
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
     line-height: 200%;
-    font-size: 100;    
+    font-size: 100vw;    
 }
 p.about{
     text-align: left;
@@ -164,7 +164,6 @@ div.about{
     clear: both;
     display: table;
     padding:4%;
-    background-color: #99bdbb;
     line-height: 200%; 
     background-image: url("images/canals.jpg"); 
     background-size: cover; 
@@ -201,7 +200,6 @@ div.approach{
     color: #003e41;
     text-align: right;
     padding: 2%;
-    background-color:  #d8a75d;
     line-height: 200%;
     background-image: url("images/trees.jpg");
     background-size: cover;
