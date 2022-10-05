@@ -115,9 +115,7 @@ p.testi{
     display: inline-block;   
 }
 @media screen and (max-width: 900px) {
-    p.testi{
-        font-size: 15px;
-    }
+
 }
 ul{
     list-style-type: none;
