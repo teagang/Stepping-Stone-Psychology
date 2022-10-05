@@ -369,6 +369,7 @@ input {
   } 
 
   label {
+    background-color: black;
     color: white; 
   }
   /*captcha styling*/
