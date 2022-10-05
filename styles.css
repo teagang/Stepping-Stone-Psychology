@@ -369,8 +369,9 @@ input {
   } 
 
   label {
-    background-color: black;
-    color: white; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: #164749; 
   }
   /*captcha styling*/
  
