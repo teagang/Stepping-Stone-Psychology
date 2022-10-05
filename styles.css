@@ -370,8 +370,9 @@ input {
 
   label {
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 5px;
     color: #164749; 
+    padding: 2%;
   }
   /*captcha styling*/
  
