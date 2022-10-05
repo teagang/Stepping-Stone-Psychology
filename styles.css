@@ -118,6 +118,9 @@ p.testi{
 p{
     font-size: 150%;
 }
+p.welcome{
+    text-align: center;
+}
 }
 ul{
     list-style-type: none;
