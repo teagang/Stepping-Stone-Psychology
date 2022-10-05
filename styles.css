@@ -236,7 +236,7 @@ div.topics{
     border-bottom-style: solid;
     border-bottom-width: 50px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1400px) {
     div.topics {
       
       background-image: url("images/plant3.jpg");
@@ -246,6 +246,7 @@ div.topics{
     ul{
         max-width: 100%;
         margin-left: 25%;
+        font-size: 150%;
     } 
     div.topics2{
         background-color: rgba(247, 247, 242, 0.9);
