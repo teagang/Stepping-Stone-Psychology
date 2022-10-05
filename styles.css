@@ -192,7 +192,7 @@ div.welcome{
     }
     p.welcome{
         max-width: 100%;
-        background-color: rgba(184, 159, 79, 0.3);
+        background-color: rgba(247, 247, 242, 0.9);
     }
   }
   
@@ -227,7 +227,7 @@ div.topics{
     font-family: 'Raleway' , sans-serif;
     color: #003e41;
     padding: 4%;
-    background-color: rgba(215, 218, 183, 0.8);
+    background-color: rgba(247, 247, 242, 0.9);
     line-height: 200%;
     background-image: url("images/plant.jpg");
     background-size: cover;
