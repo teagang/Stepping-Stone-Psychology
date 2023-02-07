@@ -264,9 +264,6 @@ div.rates{
     line-height: 200%;
     display: flex;
     flex-flow: column wrap;
-    border-bottom-color: #e2c792;
-    border-bottom-style: solid;
-    border-bottom-width: 50px;
     
 }
 div.testimonials{
