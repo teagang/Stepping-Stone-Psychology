@@ -46,6 +46,7 @@ h2{
   }
   h2#topics{
     padding-bottom: 4%;
+    text-align: right;
   }
 
   /*span styling*/
