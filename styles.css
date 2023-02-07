@@ -240,11 +240,11 @@ div.topics{
       background-size: cover;
       background-repeat: no-repeat;
     }
-    /*ul{
+    ul{
         max-width: 100%;
         margin-left: 25%;
         font-size: 150%;
-    } */
+    } 
     div.topics2{
         background-color: rgba(247, 247, 242, 0.9);
   }
