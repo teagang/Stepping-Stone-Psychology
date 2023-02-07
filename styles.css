@@ -266,6 +266,19 @@ div.topics2{
     border-radius: 40px;
    
 }
+div.rates{
+    font-family: 'Raleway' , sans-serif;
+    color: #003e41;
+    text-align: right;
+    padding: 2%;
+    line-height: 200%;
+    display: flex;
+    flex-flow: column wrap;
+    border-bottom-color: #e2c792;
+    border-bottom-style: solid;
+    border-bottom-width: 50px;
+    
+}
 div.testimonials{
     background-color: #86b2c4;
     background-image: url("images/plainbook.jpg");
