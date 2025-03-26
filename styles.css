@@ -104,8 +104,7 @@ p.topics{
 }
 p.rates{
     border-radius: 40px;
-    text-align: left;
-    
+    text-align: left;   
 }
 p.contact {
     background-color:  rgba(247, 247, 242, 0.9);
@@ -216,7 +215,6 @@ div.approach{
       background-image: url("images/trees.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      
     }
 }
 
@@ -235,7 +233,6 @@ div.topics{
 }
 @media only screen and (max-width: 1400px) {
     div.topics {
-      
       background-image: url("images/plant3.jpg");
       background-size: cover;
       background-repeat: no-repeat;
@@ -269,7 +266,6 @@ div.rates{
     border-bottom-width: 50px;
 }
 div.testimonials{
-    
     background-image: url("images/blossoms40.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -331,6 +327,9 @@ input {
       textarea{
           margin-top: 0%;
       }
+      .footer {
+        flex-direction: column;
+      }
   }
 
   input#submit {
@@ -389,6 +388,14 @@ div.g-recaptcha{
     display: flex;
     float:left;
    max-width: 2%;
+}
+div.footer{
+    background-color: rgba(247, 247, 242, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    gap: 50px;
 }
     
   
