@@ -23,7 +23,11 @@ p.navlink:hover{
     color: #fcf3e0;
     text-decoration: underline;
 }
-
+p a{
+    text-decoration: underline;
+    color: inherit;
+    display: inline;
+}
 
 
 h2{ 
